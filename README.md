@@ -5,4 +5,4 @@
 
 ## Key Project
 ### [auction-system](https://github.com/jxhnsilver/auction-system)
-Монолитный backend онлайн-аукционов. Защита от race conditions (pessimistic locking), фоновые сервисы для автозакрытия торгов, нормализованная схема БД. Архитектура: Clean Architecture. Локальный запуск через Docker Compose. Доменный слой покрыт unit-тестами (xUnit).
+Монолитный backend онлайн-аукционов. Защита от race conditions (pessimistic locking), фоновые сервисы для закрытия/открытия торгов, нормализованная схема БД. Архитектура: Clean Architecture. Локальный запуск через Docker Compose. Доменный слой покрыт unit-тестами (xUnit).
